@@ -1,0 +1,10 @@
+version: 0.2
+
+env:
+  variables:
+    state: "test"
+phases:
+  build:
+    run-as: Linux-user-name
+    commands:
+      - echo "hello there $state"
